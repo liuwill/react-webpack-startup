@@ -1,0 +1,31 @@
+{
+  "name": "static_shop",
+  "version": "0.0.1",
+  "description": "static_shop",
+  "authors": [
+    "liuwill"
+  ],
+  "license": "MIT",
+  "homepage": "www.liuwill.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "4.6.3"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.js",
+      "css": "dist/css/*.css",
+      "fonts": "dist/fonts/*"
+    },
+    "jquery": {
+      "js": "dist/*"
+    }
+  }
+}

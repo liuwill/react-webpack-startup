@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Static Photo Gallery</title>
+    <link rel="stylesheet" href="/static/lib/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/assets/styles/main.css"/>
+</head>
+<body>
+<div class="navi-header">
+    <div class="header-container u-clearfix">
+        <div class="site-header-content">
+            <button class="menu-toggler">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a href="" class="logo-img">LiuWill</a>
+
+            <div class="js-sidebar-mask"></div>
+            <div class="js-sidebar"></div>
+        </div>
+        <div class="menu-header-content">
+            <button class="pure-btn border-btn upload-trigger-btn">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                <span class="btn-text">上传</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="main-container">
+    <div>
+        <h1>Hello, world!</h1>
+        <div id="fileChooser" class="simple-modal upload-modal">
+            <div class="modal-dialog">
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <div class="modal-title">上传图片</div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="file-choose-container">
+                            <div class="file-choose-row">
+                                <div class="file-choose-ctrl">
+                                    <button class="btn btn-danger img-choose-btn" onclick="">Choose Photo</button>
+                                    <input id="imgFile" type="file" onchange=""/>
+                                </div>
+                                <div class="upload-file-info">
+                                    <div class="tip-content">
+                                        <span class="tip-col"><label class="tip-label">type</label><span class="tip-text">image/png</span></span>
+                                        <span class="tip-col"><label class="tip-label">size</label><span class="tip-text">143255</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="file-preview-row image-package">
+                                <img id="showImg" class="img-card" src="/static/images/prototype/upload-preview.jpg"/>
+                                <div class="image-caption">upload-preview.jpg</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-smooth btn-cancel" onclick="">Cancel</button>
+                        <button class="btn btn-smooth btn-success img-save-btn" onclick="">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="imageList" class="img-container js-img-container">
+        <ul class="js-img-list">
+            <li>
+                <div class="img-item">
+                    <div class="img-view">
+                        <img class="pic-img" src="/static/images/prototype/scenery-21.png">
+                    </div>
+                    <div class="img-info">
+                        <span>scenery-21.png</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="img-item">
+                    <div class="img-view">
+                        <img class="pic-img" src="/static/images/prototype/scenery-24.png">
+                    </div>
+                    <div class="img-info">
+                        <span>scenery-21.png</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--<script src="/assets/main.bundle.js"></script>-->
+</body>
+</html>

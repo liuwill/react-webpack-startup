@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Static Photo Gallery</title>
+    <link rel="stylesheet" href="/static/lib/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/assets/styles/main.css"/>
+</head>
+<body>
+<div id="js-navi-header" class="navi-header">
+    <div class="header-container u-clearfix">
+        <div class="site-header-content">
+            <button class="menu-toggler">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a href="" class="logo-img">LiuWill</a>
+
+            <div class="js-sidebar"></div>
+        </div>
+        <div class="menu-header-content">
+            <button class="pure-btn border-btn upload-trigger-btn">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                <span class="btn-text">上传</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="main-container">
+    <div id="js-user-data"></div>
+    <div id="imageList" class="img-container js-img-container">
+        <div class="intro-loading-row">
+            <div class="intro-loaing-img">
+                <i class="fa fa-spin fa-spinner" aria-hidden="true"></i>
+            </div>
+            <p class="loading-message">loading content</p>
+        </div>
+    </div>
+</div>
+<!--<script src="/assets/main.bundle.js"></script>-->
+</body>
+</html>

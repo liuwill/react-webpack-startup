@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Static Photo Gallery</title>
+    <link rel="stylesheet" href="/static/lib/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/assets/styles/main.css"/>
+</head>
+<body>
+<div class="navi-header">
+    <div class="header-container u-clearfix">
+        <div class="site-header-content">
+            <button class="menu-toggler">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <a href="" class="logo-img">LiuWill</a>
+
+            <div class="js-sidebar"></div>
+        </div>
+        <div class="menu-header-content">
+            <button class="pure-btn border-btn upload-trigger-btn">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                <span class="btn-text">上传</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="main-container">
+    <div id="js-user-data">
+        <div class="top-menu u-clearfix">
+            <div class="top-menu-inner u-clearfix">
+                <div class="top-menu-item" title="详情">
+                    <span class="items-witch"><i class="fa fa-th-large" aria-hidden="true"></i></span>
+                </div>
+                <div class="top-menu-item" title="小图">
+                    <span class="items-witch"><i class="fa fa-th" aria-hidden="true"></i></span>
+                </div>
+                <div class="top-menu-item" title="列表">
+                    <span class="items-witch"><i class="fa fa-th-list" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="imageList" class="img-container js-img-container">
+        <div class="img-content card-mode">
+            <ul class="js-img-list u-clearfix">
+                <li>
+                    <div class="img-item">
+                        <div class="img-view">
+                            <img class="picture" src="/static/images/prototype/scenery-21.png">
+                            <div class="img-box"></div>
+
+                            <div class="del-img-btn">
+                                <span>-</span>
+                            </div>
+                        </div>
+                        <div class="img-info">
+                            <span class="img-name">scenery-21.png</span>
+                            <span class="img-type">img:png</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-item">
+                        <div class="img-view">
+                            <img class="picture" src="/static/images/prototype/upload-preview.jpg">
+
+                            <div class="img-box"></div>
+                        </div>
+                        <div class="img-info">
+                            <span class="img-name">scenery-21.png</span>
+                            <span class="img-type">img:png</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--<script src="/assets/main.bundle.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "StaticShopDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "gulp staticserver",
+  },
+  "engines": {
+    "node": "4.4.7",
+    "npm": "2.15.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "0.0.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.1"
+  }
+}
