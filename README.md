@@ -33,4 +33,7 @@ gulp staticserver
 
 通过顺序使用命令，可以方便的进行开发.
 
+## 目前进展
+根据最初的设想，三种不同呈现方式列表还有另外两种没有完成，预览功能已经接近完成。最终的代码增加了一个整体打包的gulp命令，目前正在完善中
+
 [maxin]: http://khan.github.io/react-components/
